@@ -1,4 +1,4 @@
-package main.java.com.borysova.executor;
+package main.java.com.borysova.shapes;
 
 import main.java.com.borysova.shapes.*;
 

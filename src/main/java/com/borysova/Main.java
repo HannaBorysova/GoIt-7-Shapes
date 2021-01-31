@@ -1,6 +1,6 @@
 package main.java.com.borysova;
 
-import main.java.com.borysova.executor.ShapeService;
+import main.java.com.borysova.shapes.ShapeService;
 
 public class Main {
 

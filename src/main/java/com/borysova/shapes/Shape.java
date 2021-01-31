@@ -1,16 +1,7 @@
 package main.java.com.borysova.shapes;
 
-public class Shape implements Display {
-    private String name;
-
-    public Shape(String name) {
-
-        this.name = name;
-    }
+public abstract class Shape implements Display {
 
     @Override
-    public void displayShape() {
-
-        System.out.println("Shape's name - " + name);
-    }
+    public abstract String displayShape();
 }

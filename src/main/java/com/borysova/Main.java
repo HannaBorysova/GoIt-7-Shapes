@@ -1,11 +1,11 @@
 package main.java.com.borysova;
 
-import main.java.com.borysova.executor.Executor;
+import main.java.com.borysova.executor.ShapeService;
 
 public class Main {
 
     public static void main(String[] args) {
-        Executor executor = new Executor();
-        executor.execute();
+        ShapeService shapeName = new ShapeService();
+        shapeName.printName();
     }
 }
